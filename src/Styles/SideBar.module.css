@@ -50,7 +50,7 @@ input[type="text"]::-webkit-input-placeholder {
     .main_div{
         width: 35%;
         height: 100vh;
-        background-color: rgb(143, 143, 194);
+        background-color: rgb(120, 142, 150);
      padding: 20px;
         cursor: pointer;
         z-index: 10;
@@ -61,9 +61,9 @@ input[type="text"]::-webkit-input-placeholder {
 
 @media screen and (max-width: 768px) {
     .main_div{
-        width: 52%;
+        width: 55%;
         height: 100vh;
-        background-color: rgb(143, 143, 194);
+        background-color: rgb(120, 142, 150);
      padding: 20px;
         cursor: pointer;
         z-index: 10;
@@ -73,9 +73,9 @@ input[type="text"]::-webkit-input-placeholder {
 
   @media screen and (max-width: 600px) {
     .main_div{
-        width: 60%;
+        width: 70%;
         height: 100vh;
-        background-color: rgb(143, 143, 194);
+        background-color: rgb(120, 142, 150);
      padding: 20px;
         cursor: pointer;
         z-index: 10;
