@@ -318,7 +318,7 @@ export default class SideBar extends Component {
                         
 <Col xs={12} className="text-light">
 <br/>
-              { !this.state.laz3 ? <div onClick={this.treciNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}> About  <AiOutlineArrowDown className="float-end"  onClick={this.treciNav} />  </div>:<div onClick={this.treciNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}> About <AiOutlineArrowUp  className="float-end" onClick={this.treciNav} /></div> }
+              { !this.state.laz3 ? <div onClick={this.treciNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}><AiOutlineEye />  About  <AiOutlineArrowDown className="float-end"  onClick={this.treciNav} />  </div>:<div onClick={this.treciNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}><AiOutlineEye /> About <AiOutlineArrowUp  className="float-end" onClick={this.treciNav} /></div> }
 
            
         </Col>
@@ -346,7 +346,7 @@ export default class SideBar extends Component {
 
 <Col xs={12} className="text-light">
 <br/>
-          { !this.state.laz4? <div onClick={this.cetvrtiNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}><AiOutlineArrowDown className="float-end"  onClick={this.cetvrtiNav} /> Contact </div>   :  <div onClick={this.cetvrtiNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}><AiOutlineArrowDown className="float-end"  onClick={this.cetvrtiNav} /> Contact</div> }
+          { !this.state.laz4? <div onClick={this.cetvrtiNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}><AiOutlineArrowDown className="float-end"  onClick={this.cetvrtiNav} /><AiOutlineMail />  Contact </div>   :  <div onClick={this.cetvrtiNav} onMouseOver={this.promenIBg} onMouseOut={this.vratiBg}><AiOutlineArrowDown className="float-end"  onClick={this.cetvrtiNav} /><AiOutlineMail />  Contact</div> }
 
          
 </Col>
